@@ -1,4 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Playfair+Display&family=Poppins:wght@100;200&family=Press+Start+2P&family=Roboto+Slab:wght@100;200;500&display=swap');
+
 body {
   margin: 0;
   padding: 0;
+  background-color: #222222;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-left: 7%;
+    height: 30vh;
+    border-bottom: 7px solid #eee;
+}
+
+.second {
+    padding-top: 8vh;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-left: 5%;
+}
+
+.number {
+    background-color: #EEEEEE;
+    height: 10vh;
+    width: 10%;
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 140px;
+    margin-left: 38%;
+}
+
+.btn {
+    width: 12%;
+    height: 8vh;
+    background-color: #EEEEEE;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.para {
+    color: #EEEEEE;
+    font-family: 'Press Start 2P', cursive;
 }
