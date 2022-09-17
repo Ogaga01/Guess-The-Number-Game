@@ -118,3 +118,11 @@ main {
 .sixth {
   margin-top: 3.5%;
 }
+
+.bg {
+    background-color: #60b347;
+}
+
+.bg2 {
+    background-color: red;
+}
