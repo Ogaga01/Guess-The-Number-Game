@@ -1,9 +1,3 @@
-let title = '';
-if (typeof document !== 'undefined') {
-  title = document.title;
-}
-console.log(title);
-
 let secretNumber = Math.trunc(Math.random() * 20 + 1);
 
 let score = 20;
