@@ -8,6 +8,7 @@ body {
 
 a {
     text-decoration: none;
+    color: blue;
 }
 
 .top {
@@ -37,6 +38,7 @@ a {
     padding-top: 20px;
     margin-top: 140px;
     margin-left: 43%;
+    color: #222222;
 }
 
 .btn {
@@ -111,4 +113,8 @@ main {
 
 .first {
     margin-right: 2%;
+}
+
+.sixth {
+    margin-top: 3.5%;
 }
