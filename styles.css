@@ -1,4 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Playfair+Display&family=Poppins:wght@100;200&family=Press+Start+2P&family=Roboto+Slab:wght@100;200;500&display=swap');
+
 body {
   margin: 0;
   padding: 0;
+  background-color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.top {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: 30vh;
+  border-bottom: 7px solid #eee;
+}
+
+.second {
+  padding-top: 8vh;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-left: 5%;
+}
+
+.number {
+  background-color: #eee;
+  height: 10vh;
+  width: 10%;
+  position: absolute;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 140px;
+  margin-left: 43%;
+  color: #222;
+}
+
+.btn {
+  width: 14%;
+  height: 10vh;
+  background-color: #eee;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.3rem;
+}
+
+.again {
+  margin-left: 3%;
+}
+
+.para {
+  color: #eee;
+  font-family: 'Press Start 2P', cursive;
+}
+
+main {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 50px;
+  justify-content: space-around;
+  height: 45vh;
+}
+
+.left-section {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.check {
+  width: 40%;
+  margin-top: 30px;
+}
+
+.guess {
+  background-color: #222;
+  width: 47%;
+  height: 14vh;
+  border: 5px solid #eee;
+  color: #eee;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+  font-size: 1.2rem;
+}
+
+.third {
+  font-size: 1.5rem;
+}
+
+.fourth {
+  margin-top: 13%;
+}
+
+.fifth {
+  margin-top: 2%;
+}
+
+.first {
+  margin-right: 2%;
+}
+
+.sixth {
+  margin-top: 3.5%;
 }
