@@ -1,43 +1,56 @@
-'use strict'
+"use strict";
 
-let secretNumber = Math.trunc(Math.random() * 20 + 1)
-console.log(secretNumber)
-let score = 20
+let secretNumber = Math.trunc(Math.random() * 20 + 1);
 
-let highScore = 0
+let score = 20;
 
-document.querySelector('.check').addEventListener('click', function () {
-    const guess = Number(document.querySelector('.guess').value)
+let highScore = 0;
 
-    if (!guess) {
-        document.querySelector('.third').textContent = '⛔ No Number ❗'
-    } else if (guess === secretNumber) {
-        document.querySelector(".third").textContent = "🎉 Correct Number";
-        document.querySelector('body').classList.add('bg')
-        if (score > highScore) {
-            highScore = score
+document.querySelector(".check").addEventListener("click", function () {
+  const guess = Number(document.querySelector(".guess").value);
 
-            document.querySelector(".highscore").textContent = highScore
-        }
-    } else if (guess < secretNumber) {
-        if (score > 1) {
-            document.querySelector(".third").textContent = "Too low 📉";
-            score--
-            document.querySelector('.score').textContent = score
-        } else {
-            document.querySelector(".third").textContent = "💥 Game Over";
-            document.querySelector(".score").textContent = 0;
-            document.querySelector("body").classList.add("bg2");
-        }
-    } else if (guess > secretNumber) {
-        if (score > 1) {
-          document.querySelector(".third").textContent = "Too High 📈";
-          score--;
-          document.querySelector(".score").textContent = score;
-        } else {
-          document.querySelector(".third").textContent = "💥 Game Over";
-          document.querySelector(".score").textContent = 0;
-          document.querySelector("body").classList.add("bg2");
-        }
+  if (!guess) {
+    document.querySelector(".third").textContent = "⛔ No Number ❗";
+  } else if (guess === secretNumber) {
+    document.querySelector(".third").textContent = "🎉 Correct Number";
+    document.querySelector(".number").textContent = secretNumber;
+    document.querySelector(".number").classList.add("wide");
+    document.querySelector("body").classList.add("bg");
+    if (score > highScore) {
+      highScore = score;
+
+      document.querySelector(".highscore").textContent = highScore;
     }
-})
+  } else if (guess < secretNumber) {
+    if (score > 1) {
+      document.querySelector(".third").textContent = "Too low 📉";
+      score--;
+      document.querySelector(".score").textContent = score;
+    } else {
+      document.querySelector(".third").textContent = "💥 Game Over";
+      document.querySelector(".score").textContent = 0;
+      document.querySelector("body").classList.add("bg2");
+    }
+  } else if (guess > secretNumber) {
+    if (score > 1) {
+      document.querySelector(".third").textContent = "Too High 📈";
+      score--;
+      document.querySelector(".score").textContent = score;
+    } else {
+      document.querySelector(".third").textContent = "💥 Game Over";
+      document.querySelector(".score").textContent = 0;
+      document.querySelector("body").classList.add("bg2");
+    }
+  }
+});
+
+document.querySelector(".again").addEventListener("click", function () {
+  secretNumber = Math.trunc(Math.random() * 20 + 1);
+  score = 20;
+  document.querySelector(".third").textContent = "Start Guessing...";
+  document.querySelector(".score").textContent = score;
+  document.querySelector("body").classList.remove("bg");
+  document.querySelector(".guess").value = "";
+  document.querySelector(".number").textContent = "?";
+  document.querySelector(".number").classList.remove("wide");
+});
