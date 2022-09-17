@@ -15,7 +15,6 @@ a {
     position: relative;
     justify-content: space-between;
     margin-top: 10px;
-    padding-left: 7%;
     height: 30vh;
     border-bottom: 7px solid #eee;
 }
@@ -37,14 +36,19 @@ a {
     text-align: center;
     padding-top: 20px;
     margin-top: 140px;
-    margin-left: 38%;
+    margin-left: 43%;
 }
 
 .btn {
-    width: 12%;
-    height: 8vh;
+    width: 14%;
+    height: 10vh;
     background-color: #EEEEEE;
     font-family: 'Press Start 2P', cursive;
+    font-size: 1.3rem;
+}
+
+.again {
+    margin-left: 3%;
 }
 
 .para {
@@ -57,7 +61,7 @@ main {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 50px;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 45vh;
 }
 
@@ -83,4 +87,28 @@ main {
     font-family: 'Press Start 2P', cursive;
     font-size: 2.5rem;
     text-align: center;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    font-size: 1.2rem;
+}
+
+.third {
+    font-size: 1.5rem;
+}
+
+.fourth {
+    margin-top: 13%;
+}
+
+.fifth {
+    margin-top: 2%;
+}
+
+.first {
+    margin-right: 2%;
 }
