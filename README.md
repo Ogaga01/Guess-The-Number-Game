@@ -12,9 +12,9 @@
 - JavaScript
 - Linters
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ogaga01.github.io/Guess-The-Number-Game/)
 
 
 ## Getting Started
@@ -43,9 +43,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/ogaga01)
-- Twitter: [@twitterhandle](https://twitter.com/i_ogaga_n)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/ogaga-iyara)
+- GitHub: [Ogaga Iyara](https://github.com/ogaga01)
+- Twitter: [Ogaga Iyara](https://twitter.com/i_ogaga_n)
+- LinkedIn: [Ogaga Iyara](https://linkedin.com/in/ogaga-iyara)
 
 
 ## 🤝 Contributing
