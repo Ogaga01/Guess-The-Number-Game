@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
     <title>Guess The Number</title>
 </head>
 <body>
-    
+    <header class="top">
+        <button type="button" class="btn again">Again!</button>
+        <p class="second para">Guess My Number!</p>
+        <p class="first para">(Between 1 and 20)</p>
+        <div class="number">?</div>
+    </header>
+    <main>
+        <section class="left-section">
+            <input type="number" class="guess" step="1">
+            <button type="button" class="btn check">Check!</button>
+        </section>
+        <section class="right-section">
+            <p class="third para">Start guessing...</p>
+            <p class="fourth para">💯 Score: <span class="score">20</span></p>
+            <p class="fifth para">🥇 Highscore: <span class="highscore">0</span></p>
+        </section>
+    </main>
+    <footer>
+        <p class="sixth para">Created By: Ogaga Iyara
+            <a href="mailto:iyaraogaga69@gmail.com" class="email">Email</a>
+            <a href="https://github.com/Ogaga01" class="github">GitHub</a>
+        </p>
+    </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
